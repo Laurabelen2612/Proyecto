@@ -1,0 +1,87 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{multicol}
+\usepackage{graphicx} 
+\begin{document}
+\title{INFORME PROYECTO BIBLIOTECA VIRTUAL UNIVERSITARIA \\ ALGORITMIA Y PROGRAMACIÒN}
+\author{CORREA VILLA ADRIANA DEL PILAR 201960008 \\ AGUIRRE CABRERA LAURA BELEN 201960051 \\ TECNOLOGIA ELECTRÒNICA \\ UNIVERSIDAD DEL VALLE, SEDE ZARZAL.}
+\date{}
+\maketitle
+
+\begin{multicols}{2}
+\begin{center}
+\textbf{RESUMEN} 
+\end{center}
+El informe que se presentara es uno de los resultados del Proyecto “BIBLIOTECA VIRTUAL UNIVERSITARIA L.A” Con el fin de ir desarrollando herramientas y tendencias que facilitan el trabajo de instituciones de educación superior o también poder implementarse en todas las instituciones. La biblioteca que les presentamos, haciendo uso de estas facilidades, creó una plataforma que permite manejar adecuadamente la información y brinda a los usuarios grandes ventajas. Es algo muy didáctico que nos ayuda a buscar libros. \\
+La finalidad de este proyecto para ser mas exactos es brindar una herramienta y una tendencia para facilitar el trabajo de búsqueda en la universidad y haciendo uso de estas facilidades se desarrolla este tipo de plataforma que permite manejar adecuadamente la información y buenas ventajas al usuario. Se caracteriza por ser un tratamiento didáctico en el acceso a documentos depositados en ella lo que garantiza obtener con eficiencia en la comunidad universitaria. \\ 
+\begin{center}
+\textbf{ABSTRACT} 
+\end{center}
+In this project we can help the university or some other educational institution to have access to a system that neatly groups and stores elements such as books in this case. With the help of the various algorithms, this system will be designed that can execute and compile a table to order said material. \\
+\begin{center}
+\textbf{INTRODUCCIÓN} 
+\end{center}
+En el mundo los cambios que se originan a partir del uso de las tecnologías de la información y las comunicaciones como un recurso de importancia estratégica, imponen a la educación superior de Colombia un perfeccionamiento continuo en las formas de gestionar contenidos para contribuir en los logros de una mayor eficacia en los procesos sustantivos que tienen lugar en las instituciones educativas. \\
+Las bibliotecas digitales son puerta de acceso al patrimonio cultural y científico. Tratan de solventar la brecha informacional a través del acceso y la difusión de contenidos digitales, aunque para ello haya que solucionar antes la brecha digital existente. Las bibliotecas digitales buscan eliminar las fronteras geográficas y sociales, además de promocionar el aprendizaje y la comprensión de la riqueza y diversidad del mundo. Una biblioteca digital es una colección en línea de objetos digitales de buena calidad, creados o recopilados y administrados de conformidad con principios aceptados en el plano internacional para la creación de colecciones, y que se ponen a disposición de manera coherente y perdurable y con el respaldo de los servicios necesarios para que los usuarios puedan encontrar y utilizar esos recursos. \\
+\begin{center}
+\textbf{Objetivos Específicos} 
+\end{center}
+-Promover la digitalización, el acceso y la preservación del patrimonio cultural y científico. \\
+-Crear sistemas interoperables para las bibliotecas digitales, a fin de promover normas abiertas y el libre acceso. \\
+-Crear conciencia sobre la necesidad apremiante de garantizar una accesibilidad permanente al material digital. \\
+-Vincular las bibliotecas digitales a redes de investigación y desarrollo de alta velocidad.
+ \\ \\
+\begin{center}
+\textbf{Objetivo General} 
+\end{center}
+-Brindar acceso a todos los usuarios a los recursos informativos acopiados por las bibliotecas, respetando los derechos de propiedad intelectual. \\
+-Sacar provecho de la convergencia creciente de los cometidos de los medios de comunicación y las instituciones para crear y difundir contenidos digitales. \\
+-Fomentar la función esencial de las bibliotecas y los servicios de información para la promoción de normas comunes y prácticas idóneas. \\
+\begin{center}
+\textbf{Explicación del Proyecto Biblioteca Virtual Universitaria} 
+\end{center}
+Como parte esencial creemos que es importante que sepan el funcionamiento básico de NetBeans, en primera instancia se hace click en el menú Archivo y seleccionar Proyecto Nuevo y seleccionar la categoría “Java”, escoger el proyecto tipo “Aplicación Java” y hacer click en Next. \\
+Luego se introduce el Nombre del Proyecto, desactivar la casilla Crear clase principal y hacer click en Finish.
+ Crear un nuevo Paquete Java en el Sources y darle un Nombre de Paquete y hacer click en Terminar. \\
+Esto sería lo básico para seguir con nuestro proyecto. En este punto se procederá a explicar y desenmarañar el código que nos da esta biblioteca. \\
+En dicha biblioteca se esta elaborando un sistema de control de los distintos documentos, como los libros y las revistas. La forma de acceso es: consultas en salas para las revistas y libros y préstamos temporales para libros. \\
+Los tipos de documentos que se encontraran allí son los libros clásicos, en papel. Los datos que nos conviene saber serán: código, titulo, autor o autores, la editorial, año de su publicación, y si se encuentra en préstamo será (true) o sino (false). \\
+Las revistas en papel que tienen los detalles siguientes: código, titulo, autor o autores, editorial, año de publicación, volumen, numero y mes de salida, se podrán buscar solo y únicamente en la sala. \\
+La interfaz gráfica deberá partir de un menú que tenga estas opciones y debe cumplir también las restricciones que se mencionaran: \\
+-La opción salir del menú que permitirá salir de la aplicación. \\
+-La opción Agregar permitirá ingresar a la ventana de ingreso de un documento. \\
+-La opción Eliminar permitirá ingresar a la ventana de eliminación de un documento por su código. \\
+-La opción Listar permitirá mostrar todos los documentos almacenados en una colección. \\
+\begin{center}
+\includegraphics[width=5cm]{photo.jpg} 
+\end{center} 
+El siguiente documento tiene las opciones: Seleccione, libro y revista. La ventana va a partir de volumen, numero, y mes se habilitarán cuando se selecciona Revista y préstamo se habilitará cuando se seleccione Libro. \\
+-Para almacenar libros y revistas se oprime el botón ingresar. \\
+-El de limpiar es para los campos de texto. Y también deshabilita los campos de volumen, numero, mes y préstamo dejando la ventana en su estado normal como estaba al principio. \\
+-El de salir cerrara la ventana y dejara activo el menú. \\
+-La ventana de eliminar tendrá un botón para eliminar y permitirá borrar un documento solo por el código. \\
+\begin{center}
+\includegraphics[width=5cm]{ima2.jpg} 
+\end{center} 
+Ahora para hablar un poco del código los documentos que iremos creando los almacenaremos en un Array(Un array, es un tipo de dato estructurado que permite almacenar un conjunto de datos homogéneo, es decir, todos ellos del mismo tipo y relacionado) como por ejemplo en Registro java que sería un array para documentos: \\
+\begin{center}
+\includegraphics[width=5cm]{ima3.jpg} 
+\end{center} 
+Se utilizarán un activador que seria (boolean repetido=false), y un for que recorre la lista de documento y se encuentra que algún código que sea solo y aparte de esto ese mismo que estamos seleccionando repetido cambie a true. le pondremos el mensaje de que no se puede agregar y un Break para que no continúe en ese ciclo. \\
+\begin{center}
+\includegraphics[width=5cm]{ima4.jpg} 
+\end{center}
+Estos son algunos comandos que estaran en nuestro proyecto, otros se crean automaticamente al usted interactuar con los diferentes objetos que tiene netbeans como lo son los menu que en el caso de nuestra carpeta de Menu.java en su grafica se creara un menu bar en el cual se agregaran los distintos textfield que nos ayudan a ponerle las acciones a los botones como salir y en el otro boton las de ingresar, eliminar y listar. \\
+Son diversos los componentes que se le agregaran a este programa solo quedaria explicar algunos de ellos, como:
+-JFrame es una clase utilizada en Swing (biblioteca gráfica) para generar ventanas sobre las cuales añadir distintos objetos con los que podrá interactuar o no el usuario. \\
+-Un campo de texto textfield es un control básico que permite al usuario teclear una pequeña cantidad de texto y dispara un evento acción cuando el usuario indique que la entrada de texto se ha completado (normalmente pulsando Return). \\
+-Un pequeño programa sencillo de ejemplo de uso del JComboBox de Java. Abre una ventana con un JComboBox y un JTextField. Cada vez que seleccionemos uno de los items, se mostrará en el JTextField. \\
+\begin{center}
+\textbf{Conclusión} 
+\end{center}
+Las posibilidades de aplicación de las bibliotecas digitales en la educación, irán creciendo conforme se transforman los materiales tradicionales a su correspondiente versión electrónica y se encuentren modalidades propias de la tecnología de cómputo. Entre los proyectos futuros que pueden surgir en el área de bibliotecas digitales para colegios, escuelas, etc. \\
+La Biblioteca Virtual de la Universidad constituye una poderosa herramienta para los usuarios haciendo más amplios y eficientes los servicios de consulta, de información.
+
+\end{multicols}
+
+\end{document}
